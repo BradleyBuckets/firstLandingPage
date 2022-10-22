@@ -15,19 +15,17 @@ quote section = #E5E7EB
 quote text = 36px light italic #1F2937
 */
 
-/* div {
+div {
     border: 1px solid black;
-} */
-
-.page {
-    background-color: #1F2937;
 }
 
 .hero {
+    background-color: #1F2937;
     padding: 3rem 10rem 6rem;
 }
 
 .navbar{
+    background-color: #1F2937;
     padding: 2rem 10rem;
 }
 
@@ -93,3 +91,34 @@ button {
     font-size: 18px;
     color: #E5E7EB;
 }
+
+.infocontent { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 15rem;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.someinfo {
+    flex: 1;
+}
+
+.boxes {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* .text1, .text2, .text3, .text4 {
+    width: 50%;
+} */
