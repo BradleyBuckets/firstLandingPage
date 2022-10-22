@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 /* 
 dark background color #1F2937
 hero main text = 48px extra bold #F9FAF8
@@ -11,12 +15,16 @@ quote section = #E5E7EB
 quote text = 36px light italic #1F2937
 */
 
-div {
+/* div {
     border: 1px solid black;
+} */
+
+.page {
+    background-color: #1F2937;
 }
 
 .hero {
-    padding: 0 10rem;
+    padding: 5rem 10rem;
 }
 
 .header {
@@ -39,13 +47,40 @@ div {
 }
 
 .content {
+    flex: 1;
     display: flex;
     flex-direction: column;
 }
 
 .placeholder {
-    flex: 1;
+    flex: 1.5;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: gray;
+    color: #F9FAF8;
+    border-radius: .5rem;
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight:bolder;
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    height: 2rem;
+    width: 6rem;
+    border: 0;
+    border-radius: 0.5rem;
+}
+.subheading {
+    width: 80%;
+    margin-top: 0;
+    font-size: 18px;
+    color: #E5E7EB;
 }
