@@ -1,0 +1,51 @@
+/* 
+dark background color #1F2937
+hero main text = 48px extra bold #F9FAF8
+hero secondary text = 18px #E5E7EB
+header logo = 24px #F9FAF8
+
+Button color = 3882F6
+information text = 36px extra bold #1F2937
+
+quote section = #E5E7EB
+quote text = 36px light italic #1F2937
+*/
+
+div {
+    border: 1px solid black;
+}
+
+.hero {
+    padding: 0 10rem;
+}
+
+.header {
+    display: flex;
+}
+
+.head {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    justify-content: flex-start;
+    flex: 3;
+}
+
+.herocontent {
+    display: flex;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.placeholder {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
