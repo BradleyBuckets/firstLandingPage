@@ -24,7 +24,11 @@ quote text = 36px light italic #1F2937
 }
 
 .hero {
-    padding: 5rem 10rem;
+    padding: 3rem 10rem 6rem;
+}
+
+.navbar{
+    padding: 2rem 10rem;
 }
 
 .header {
@@ -32,14 +36,18 @@ quote text = 36px light italic #1F2937
 }
 
 .head {
+    color: #E5E7EB;
     flex: 1;
     display: flex;
     justify-content: center;
+    font-size: 18px;
 }
 
 .logo {
+    color: #F9FAF8;
     justify-content: flex-start;
-    flex: 3;
+    flex: 4;
+    font-size: 24px;
 }
 
 .herocontent {
@@ -57,7 +65,7 @@ quote text = 36px light italic #1F2937
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: gray;
+    background-color: lightslategray;
     color: #F9FAF8;
     border-radius: .5rem;
 }
@@ -73,8 +81,9 @@ h1 {
 button {
     background-color: #3882F6;
     color: #F9FAF8;
-    height: 2rem;
-    width: 6rem;
+    font-size: 18px;
+    height: 2.5rem;
+    width: 7.5rem;
     border: 0;
     border-radius: 0.5rem;
 }
