@@ -213,3 +213,9 @@ h1 {
     border: 2px solid #F9FAF8;
     border-radius: 0.5rem;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
