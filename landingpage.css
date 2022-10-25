@@ -82,7 +82,7 @@ h1 {
     color: #F9FAF8;
     font-size: 18px;
     height: 2.5rem;
-    width: 7.5rem;
+    width: 8rem;
     border: 0;
     border-radius: 0.5rem;
 }
@@ -165,19 +165,51 @@ h1 {
 
 .signup {
     display: flex;
+    padding: 6rem 12rem;
 }
 
 .signupcontent {
     flex: 1;
     display: flex;
+    background-color: #3882F6;
+    border-radius: .5rem;
+    align-items: center;
+    padding: 3rem 10rem;
+    
 }
 
 .calltoaction {
     flex: 1;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+}
+
+.action {
+    margin: 0;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.signuptext {
+    margin: 0;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.calltoactionbutton {
+    flex: .5;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .signupbutton {
-    flex: 1;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    height: 2.5rem;
+    width: 8rem;
+    border: 2px solid #F9FAF8;
+    border-radius: 0.5rem;
 }
