@@ -15,9 +15,9 @@ quote section = #E5E7EB
 quote text = 36px light italic #1F2937
 */
 
-/* div {
+div {
     border: 1px solid black;
-} */
+}
 
 .hero {
     background-color: #1F2937;
@@ -132,4 +132,23 @@ button {
     width: 10rem;
     border: 4px solid #3882F6;
     border-radius: 1rem;
+}
+
+.quote {
+    display: flex;
+    flex: 1;
+}
+
+.quotecontent{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.quoteelement {
+    flex: 2;
+}
+
+.author {
+    flex: 1;
 }
