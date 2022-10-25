@@ -15,9 +15,9 @@ quote section = #E5E7EB
 quote text = 36px light italic #1F2937
 */
 
-div {
+/* div {
     border: 1px solid black;
-}
+} */
 
 .hero {
     background-color: #1F2937;
@@ -137,18 +137,28 @@ button {
 .quote {
     display: flex;
     flex: 1;
+    padding: 5rem 15rem;
+    background-color: #E5E7EB;
 }
 
 .quotecontent{
     display: flex;
     flex: 1;
     flex-direction: column;
+    justify-content: space-between;
+    gap: .5rem;
+    padding: 0 6rem;
 }
 
 .quoteelement {
     flex: 2;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
 }
 
 .author {
-    flex: 1;
+    text-align: end;
+    font-weight: bold;
+    font-size: 24px;
 }
